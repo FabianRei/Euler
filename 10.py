@@ -11,7 +11,7 @@ def getPrimes(maxNumbers):
             continue
         primes.append(n)
         deletionIndexes = []
-        # smart index deleting might make this faster, but I am too lazy and this gives me a result within 3 min
+        # smarter indexing
         num = n - 2
         deletionIndexes.append(num)
         num += n*(n-1)
